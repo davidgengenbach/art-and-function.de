@@ -1,0 +1,11 @@
+sudo: false
+language: python
+python:
+- 3.6
+install:
+- pip3 install pyftpsync==2.1.0
+branches:
+  only:
+  - master
+script:
+- pyftpsync upload . --verbose --exclude ".git*,.travis*" ftp://$FTP_USER:$FTP_PASSWORD@art-and-function.de/sites/art-and-function/
