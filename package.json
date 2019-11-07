@@ -1,0 +1,30 @@
+{
+  "name": "art-and-function.de",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidgengenbach/art-and-function.de.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidgengenbach/art-and-function.de/issues"
+  },
+  "homepage": "https://github.com/davidgengenbach/art-and-function.de#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "http-server": "0.11.1"
+  }
+}

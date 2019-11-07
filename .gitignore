@@ -1,1 +1,4 @@
 google*.html
+.idea/
+node_modules/
+.pyftpsync-meta.json
