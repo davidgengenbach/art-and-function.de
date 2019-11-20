@@ -2,6 +2,8 @@
 
 pyftpsync \
   upload . \
-  --verbose \
-  --exclude "lib,images" \
-  ftp://art-and-function.de/sites/art-and-function/
+  ftp://art-and-function.de/sites/art-and-function/ \
+  --exclude "lib,images,.git" \
+  --resolve local \
+  --progress \
+  --quiet
