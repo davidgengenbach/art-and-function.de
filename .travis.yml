@@ -8,4 +8,4 @@ branches:
   only:
   - master
 script:
-- pyftpsync upload . --verbose --exclude ".git*,.travis*" ftp://$FTP_USER:$FTP_PASSWORD@art-and-function.de/sites/art-and-function/
+- ./upload.sh "${FTP_USER}" "${FTP_PASSWORD}"
