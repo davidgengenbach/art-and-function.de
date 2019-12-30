@@ -59,7 +59,7 @@
     "envvar": "1.x.x",
     "escodegen": "1.4.x",
     "eslint": "^2.11.0",
-    "handlebars": "3.0.x",
+    "handlebars": "4.5.x",
     "istanbul": "^0.4.x",
     "js-yaml": "^3.2.5",
     "mocha": "2.x.x",
