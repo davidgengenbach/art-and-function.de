@@ -50,7 +50,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "acorn": "0.9.x",
+    "acorn": "7.1.x",
     "benchmark": "~1.0.0",
     "browserify": "10.x.x",
     "cli-table": "0.3.x",
