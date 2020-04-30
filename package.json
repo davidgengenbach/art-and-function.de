@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/davidgengenbach/art-and-function.de#readme",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ramda": "^0.26.1"
   },
   "devDependencies": {
